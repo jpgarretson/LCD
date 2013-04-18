@@ -1,0 +1,82 @@
+
+{"friendlyVersion": "1.0",
+ "versionDefName": "LCDRESOURCES",
+
+  "media": [
+		{
+			"type":"font",
+			"defName":"DIGITAL21",
+			"file":"fonts/digital-21.ttf"
+		},
+		{
+			"type": "png",
+			"defName": "IMAGE_MENU_ICON",
+			"file": "images/menu_icon_lcd.png"
+		},
+		{
+			"type": "png",
+			"defName": "IMAGE_NUM_0",
+			"file": "images/0.png"
+        },
+
+        {
+			"type": "png",
+			"defName": "IMAGE_NUM_1",
+			"file": "images/1.png"
+        },
+
+        {
+			"type": "png",
+			"defName": "IMAGE_NUM_2",
+			"file": "images/2.png"
+        },
+
+        {
+			"type": "png",
+			"defName": "IMAGE_NUM_3",
+			"file": "images/3.png"
+        },
+
+        {
+			"type": "png",
+			"defName": "IMAGE_NUM_4",
+			"file": "images/4.png"
+        },
+
+        {
+			"type": "png",
+			"defName": "IMAGE_NUM_5",
+			"file": "images/5.png"
+        },
+
+        {
+			"type": "png",
+			"defName": "IMAGE_NUM_6",
+			"file": "images/6.png"
+        },
+
+        {
+			"type": "png",
+			"defName": "IMAGE_NUM_7",
+			"file": "images/7.png"
+        },
+
+        {
+			"type": "png",
+			"defName": "IMAGE_NUM_8",
+			"file": "images/8.png"
+        },
+
+        {
+			"type": "png",
+			"defName": "IMAGE_NUM_9",
+			"file": "images/9.png"
+        },
+		
+		{
+			"type": "png",
+			"defName": "IMAGE_COLON",
+			"file": "images/Colon.png"
+        }
+	]
+}
