@@ -250,10 +250,20 @@ void handle_init(AppContextRef ctx) {
   LayerSetup(&tick_time);
 }
 
+void handle_deinit(AppContextRef ctx) {
+  (void)ctx;
+
+  for (int i = 0; i < TOTAL_IMAGE_SLOTS; i++) {
+    unload_digit_image_from_slot(i);
+  }
+
+}
+
 void pbl_main(void *params) {
 
   PebbleAppHandlers handlers = {
     .init_handler = &handle_init,
+	.deinit_handler = &handle_deinit,
 	
 	.timer_handler = &handle_timer,
 	
